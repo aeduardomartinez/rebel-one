@@ -1,0 +1,100 @@
+:root {
+  /* ─── Marca & Colores Nexus Ledger ─── */
+  --color-primary:          #0058be; /* Azure Blue para acciones principales */
+  --color-primary-hover:    #004395; /* Azure Blue Oscuro */
+  --color-primary-light:    #2170e4; /* Azure Secundario */
+  --color-primary-subtle:   rgba(0, 88, 190, 0.08);
+  --color-accent:           #565e74;
+  --color-gradient:         linear-gradient(135deg, #131b2e 0%, #0058be 100%);
+
+  /* ─── Estado: Exitoso (Verde Esmeralda) ─── */
+  --color-success:          #009668;
+  --color-success-bg:       #e6fbf4;
+  --color-success-border:   #a3ecd2;
+
+  /* ─── Estado: Advertencia (Ámbar) ─── */
+  --color-warning:          #d97706;
+  --color-warning-bg:       #fffbeb;
+  --color-warning-border:   #fde68a;
+
+  /* ─── Estado: Peligro / Error (Rojo) ─── */
+  --color-danger:           #ba1a1a;
+  --color-danger-bg:        #ffdad6;
+  --color-danger-border:    #ffb4ab;
+
+  /* ─── Estado: Neutral ─── */
+  --color-neutral:          #76777d;
+  --color-neutral-bg:       #eff4ff;
+  --color-neutral-border:   #c6c6cd;
+
+  /* ─── Estado: Proceso / Información ─── */
+  --color-info:             #0058be;
+  --color-info-bg:          #e5eeff;
+  --color-info-border:      #c6c6cd;
+
+  /* ─── Sidebar (Navy profundo) ─── */
+  --sidebar-bg:             #131b2e;
+  --sidebar-border:         rgba(255, 255, 255, 0.06);
+  --sidebar-text:           #7c839b;
+  --sidebar-text-hover:     #eaf1ff;
+  --sidebar-text-active:    #ffffff;
+  --sidebar-item-hover:     rgba(255, 255, 255, 0.05);
+  --sidebar-item-active:    rgba(0, 88, 190, 0.22);
+  --sidebar-width:          210px;
+  --sidebar-width-collapsed: 64px;
+
+  /* ─── Layout ─── */
+  --header-height:          60px;
+  --header-bg:              #ffffff;
+  --header-border:          rgba(0, 0, 0, 0.03);
+  --content-bg:             #f8f9ff;
+  --card-bg:                #ffffff;
+  --border-color:           rgba(0, 0, 0, 0.03);
+  --border-color-strong:    rgba(0, 0, 0, 0.08);
+
+  /* ─── Texto ─── */
+  --text-primary:           #0b1c30;
+  --text-secondary:         #45464d;
+  --text-muted:             #76777d;
+
+  /* ─── Tipografía (Dual-Font Strategy) ─── */
+  --font-family:            'IBM Plex Sans', -apple-system, sans-serif;
+  --font-family-mono:       'JetBrains Mono', monospace;
+  --font-weight-normal:     400;
+  --font-weight-medium:     500;
+  --font-weight-semibold:   600;
+  --font-weight-bold:       700;
+  --font-size-xs:           12px;
+  --font-size-sm:           14px;
+  --font-size-base:         15px;
+  --font-size-md:           16px;
+  --font-size-lg:           18px;
+  --font-size-xl:           24px;
+  --font-size-2xl:          32px;
+
+  /* ─── Espaciado ─── */
+  --space-1:  4px;  --space-2:  8px;  --space-3: 12px;
+  --space-4: 16px;  --space-5: 20px;  --space-6: 24px;
+  --space-8: 32px;  --space-10: 40px; --space-12: 48px;
+  --space-16: 64px;
+
+  /* ─── Bordes redondeados (Generosos y fluidos) ─── */
+  --radius-xs:   0.5rem; /* rounded-sm */
+  --radius-sm:   0.5rem;
+  --radius-md:   1rem;   /* DEFAULT */
+  --radius-lg:   2rem;   /* rounded-lg */
+  --radius-xl:   3rem;   /* rounded-xl */
+  --radius-full: 9999px;
+
+  /* ─── Sombras sutiles ─── */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.02);
+  --shadow-sm: 0 1px 4px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 16px 40px rgba(0, 0, 0, 0.05);
+
+  /* ─── Transiciones ─── */
+  --transition-fast:   100ms ease;
+  --transition-base:   200ms ease;
+  --transition-layout: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
